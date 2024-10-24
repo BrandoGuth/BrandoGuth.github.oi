@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+header .logo h2 {
+    font-size: 20;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    height: 100vh;
+    background: url(/imagenes/emile-perron-xrVDYZRGdw4-unsplash.jpg) no-repeat center center/cover;
+    position:relative;
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero .content {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin left: 10px;;
+
+}
+
+.hero p {
+    font-size: 20px;
+    margin left: 10px;px;
+    max-width: 600px;
+}
+
+.btn {
+    padding: 10px 30px;
+    background-color: white;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+footer {
+    position:absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+footer .social-media a {
+
+    margin-right: 15px;
+    font-size: 16px;
+    color: white;
+    text-decoration:none;
+}
